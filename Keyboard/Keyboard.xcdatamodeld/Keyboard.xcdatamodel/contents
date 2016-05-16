@@ -1,4 +1,27 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<model name="Test1.xcdatamodel" userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="1" systemVersion="11A491" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
-    <elements/>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="15A279b" minimumToolsVersion="Automatic">
+    <entity name="Emoticon" representedClassName="Emoticon" syncable="YES">
+        <attribute name="code" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="e_description" attributeType="String" syncable="YES"/>
+        <attribute name="icon_url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="order_weight" optional="YES" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="version_no" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="type" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EmoticonType" inverseName="emticons" inverseEntity="EmoticonType" syncable="YES"/>
+    </entity>
+    <entity name="EmoticonType" representedClassName="EmoticonType" syncable="YES">
+        <attribute name="e_id" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="name" attributeType="String" syncable="YES"/>
+        <attribute name="order_weight" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <attribute name="ready" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="tm_end_h" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="24" defaultValueString="0" syncable="YES"/>
+        <attribute name="tm_end_m" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="60" defaultValueString="0" syncable="YES"/>
+        <attribute name="tm_start_h" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="24" defaultValueString="0" syncable="YES"/>
+        <attribute name="tm_start_m" optional="YES" attributeType="Integer 16" minValueString="0" maxValueString="60" defaultValueString="0" syncable="YES"/>
+        <attribute name="version_no" attributeType="Integer 32" defaultValueString="0" syncable="YES"/>
+        <relationship name="emticons" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Emoticon" inverseName="type" inverseEntity="Emoticon" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Emoticon" positionX="-63" positionY="-18" width="128" height="135"/>
+        <element name="EmoticonType" positionX="198" positionY="-39" width="128" height="195"/>
+    </elements>
 </model>

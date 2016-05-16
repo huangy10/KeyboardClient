@@ -8,6 +8,20 @@
 
 #import "AppDelegate.h"
 
+#import <Masonry.h>
+#import <BlocksKit.h>
+
+#import "EmoticonType.h"
+#import "Emoticon.h"
+#import "KBEmoticonUpdater.h"
+#import "KBEmoticonTypesList.h"
+#import "KBEmoticonUsageReporter.h"
+#import "KBTestViewController.h"
+#import "KBTouchableWheelView.h"
+#import "KBEmoticonDatabase.h"
+
+#import "KBKeyboardController.h"
+
 @interface AppDelegate ()
 
 @end
@@ -17,7 +31,49 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    KBEmoticonTypesList *list = [KBEmoticonTypesList typeListManager];
+    [list allTypesOnComplete:^(NSError *error, NSArray *data){
+        NSArray *selected = [[KBEmoticonDatabase sharedDatabase] allEmoticonTypes];
+        NSArray *selectedId= [selected bk_map:^id(EmoticonType *obj) {
+            return obj.e_id;
+        }];
+        for (NSDictionary *e_type in data) {
+            if (![selectedId containsObject:e_type[@"id"]]) {
+                // [list addEmoticonTypeWithDict:e_type];
+            }
+        }
+        [KBEmoticonUpdater updater];
+    } error:nil];
+    _window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    KBTestViewController *ctrl = [[KBTestViewController alloc] init];
+    KBKeyboardController *kb = [[KBKeyboardController alloc] init];
+    ctrl.view.backgroundColor = [UIColor whiteColor];
+    _window.rootViewController = kb;
+    [_window makeKeyAndVisible];
     return YES;
+}
+
+/**
+ *  This function tests the integrity of the core data model, only for temporary usage, make sure to delete it before applying to production.
+ */
+- (void)testCoreData{
+    NSEntityDescription *entity = [NSEntityDescription entityForName:@"EmoticonType" inManagedObjectContext:self.managedObjectContext];
+    EmoticonType *type = [[EmoticonType alloc] initWithEntity:entity insertIntoManagedObjectContext:self.managedObjectContext];
+    type.name = @"test";
+    type.version_no = @0;
+    type.e_id = @"11";
+    [self saveContext];
+    
+    NSFetchRequest *fetch = [[NSFetchRequest alloc] init];
+    [fetch setEntity:entity];
+    NSError *err;
+    NSArray *result = [self.managedObjectContext executeFetchRequest:fetch error:&err];
+    
+    if (!err) {
+        for (EmoticonType *t in result){
+            NSLog(@"%@", t.objectID);
+        }
+    }
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {
@@ -106,6 +162,7 @@
     }
     _managedObjectContext = [[NSManagedObjectContext alloc] init];
     [_managedObjectContext setPersistentStoreCoordinator:coordinator];
+    _managedObjectContext.mergePolicy = NSMergeByPropertyObjectTrumpMergePolicy;
     return _managedObjectContext;
 }
 

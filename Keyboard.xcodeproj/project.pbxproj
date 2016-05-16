@@ -7,14 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF06F11A1B9DC13A0077A0C7 /* KBSettingController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06F1191B9DC13A0077A0C7 /* KBSettingController.m */; };
+		BF06F11D1B9DC1640077A0C7 /* KBSettingEmoticonCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06F11C1B9DC1640077A0C7 /* KBSettingEmoticonCell.m */; };
+		BF06F1201B9DC8370077A0C7 /* KBSettingsDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BF06F11F1B9DC8370077A0C7 /* KBSettingsDatabase.m */; };
+		BF3C9FEB1B9EB3D4001109D5 /* KBSettingSwithCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3C9FEA1B9EB3D4001109D5 /* KBSettingSwithCell.m */; };
+		BF3E9BC01B884C91007C1DD9 /* KBEmoticonDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E9BBF1B884C91007C1DD9 /* KBEmoticonDatabase.m */; };
+		BF3E9BC61B884E24007C1DD9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = BF3E9BC51B884E24007C1DD9 /* Podfile */; };
+		BF3E9BC91B885054007C1DD9 /* KBEmoticonUpdater.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E9BC81B885054007C1DD9 /* KBEmoticonUpdater.m */; };
+		BF3E9BCC1B885091007C1DD9 /* KBUser.m in Sources */ = {isa = PBXBuildFile; fileRef = BF3E9BCB1B885091007C1DD9 /* KBUser.m */; };
+		BF49C45B1B8C116B00B77122 /* KBEmoticonTypesList.m in Sources */ = {isa = PBXBuildFile; fileRef = BF49C45A1B8C116B00B77122 /* KBEmoticonTypesList.m */; };
 		BF4B0E431B88398200EF737D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4B0E421B88398200EF737D /* main.m */; };
 		BF4B0E461B88398200EF737D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4B0E451B88398200EF737D /* AppDelegate.m */; };
 		BF4B0E491B88398200EF737D /* Keyboard.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF4B0E471B88398200EF737D /* Keyboard.xcdatamodeld */; };
-		BF4B0E4C1B88398200EF737D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4B0E4B1B88398200EF737D /* ViewController.m */; };
-		BF4B0E4F1B88398200EF737D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF4B0E4D1B88398200EF737D /* Main.storyboard */; };
 		BF4B0E511B88398200EF737D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF4B0E501B88398200EF737D /* Images.xcassets */; };
-		BF4B0E541B88398200EF737D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = BF4B0E521B88398200EF737D /* LaunchScreen.xib */; };
 		BF4B0E601B88398200EF737D /* KeyboardTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BF4B0E5F1B88398200EF737D /* KeyboardTests.m */; };
+		BF53AA1B1B9997A6004C679E /* pride.png in Resources */ = {isa = PBXBuildFile; fileRef = BF53AA1A1B9997A6004C679E /* pride.png */; };
+		BF6CCCF81B983FD7000086CD /* UIButton+ChainedCircle.m in Sources */ = {isa = PBXBuildFile; fileRef = BF6CCCF71B983FD7000086CD /* UIButton+ChainedCircle.m */; };
+		BF7BB6AE1B92E987003F2B61 /* KBButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BF7BB6AD1B92E987003F2B61 /* KBButton.m */; };
+		BF8B04631B96AB90007FED13 /* KBEmoticonMainCellLayouter.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B04621B96AB90007FED13 /* KBEmoticonMainCellLayouter.m */; };
+		BF8B046A1B96C9F5007FED13 /* KBEmoticonDetailView.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B04691B96C9F5007FED13 /* KBEmoticonDetailView.m */; };
+		BF8B046E1B96DAF1007FED13 /* KBKeyboardController.m in Sources */ = {isa = PBXBuildFile; fileRef = BF8B046D1B96DAF1007FED13 /* KBKeyboardController.m */; };
+		BFA2A8D21B89BA3C00B4B81F /* KBURLMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA2A8D11B89BA3C00B4B81F /* KBURLMaker.m */; };
+		BFA9DD1A1B883DF3004E8F3C /* EmoticonType.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DD191B883DF3004E8F3C /* EmoticonType.m */; };
+		BFA9DD201B883E4A004E8F3C /* Emoticon.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DD1F1B883E4A004E8F3C /* Emoticon.m */; };
+		BFA9DD221B883E77004E8F3C /* KBCoreDataModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = BFA9DD211B883E77004E8F3C /* KBCoreDataModelTest.m */; };
+		BFB358CB1B92022700D52D40 /* KBEmoticonTypePanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB358CA1B92022700D52D40 /* KBEmoticonTypePanelView.m */; };
+		BFB358CF1B9207BB00D52D40 /* KBEmoticonMainPanelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB358CE1B9207BB00D52D40 /* KBEmoticonMainPanelView.m */; };
+		BFB358D31B920D7500D52D40 /* KBTouchableChainedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB358D21B920D7500D52D40 /* KBTouchableChainedCircleView.m */; };
+		BFB358D61B9221B700D52D40 /* KBEmoticonTypePanelCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB358D51B9221B700D52D40 /* KBEmoticonTypePanelCell.m */; };
+		BFB358DA1B92B17A00D52D40 /* KBSettingBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB358D91B92B17A00D52D40 /* KBSettingBarView.m */; };
+		BFB358DD1B92C8AB00D52D40 /* KBQuarterCircleWithMarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFB358DC1B92C8AB00D52D40 /* KBQuarterCircleWithMarkerView.m */; };
+		BFD370E41B914AA100CD43A2 /* NSTimer+AbsoluteFireDate.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD370E31B914AA100CD43A2 /* NSTimer+AbsoluteFireDate.m */; };
+		BFD370E71B9177F000CD43A2 /* KBEmoticonUsage.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD370E61B9177F000CD43A2 /* KBEmoticonUsage.m */; };
+		BFD370ED1B91869D00CD43A2 /* KBTouchableWheelView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD370EC1B91869D00CD43A2 /* KBTouchableWheelView.m */; };
+		BFD370F11B918AF800CD43A2 /* KBTimelineView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD370F01B918AF800CD43A2 /* KBTimelineView.m */; };
+		BFD370F51B918BD100CD43A2 /* KBTimelineMarkerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD370F41B918BD100CD43A2 /* KBTimelineMarkerView.m */; };
+		BFD370F81B91A00D00CD43A2 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD370F71B91A00D00CD43A2 /* Default-568h@2x.png */; };
+		BFD370FC1B91A16500CD43A2 /* KBTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD370FB1B91A16500CD43A2 /* KBTestViewController.m */; };
+		BFD370FF1B91D6D000CD43A2 /* KBQuarterCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD370FE1B91D6D000CD43A2 /* KBQuarterCircleView.m */; };
+		BFEF31831B885CEC000F55EC /* KBEmoticonUsageReporter.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF31821B885CEC000F55EC /* KBEmoticonUsageReporter.m */; };
+		BFEF318A1B886418000F55EC /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = BFEF31891B886418000F55EC /* Reachability.m */; };
+		BFF11ED21B9588A900472A6C /* KBEmoticnMainCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF11ED11B9588A900472A6C /* KBEmoticnMainCell.m */; };
+		BFF11ED51B95D45000472A6C /* KBEmoticonMainContainerView.m in Sources */ = {isa = PBXBuildFile; fileRef = BFF11ED41B95D45000472A6C /* KBEmoticonMainContainerView.m */; };
+		E5A631C5F8481632727ED7B0 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 060C0270EEFF9C57FF68DD2D /* libPods.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,20 +63,90 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		060C0270EEFF9C57FF68DD2D /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		292F5C50430724E648CDCA02 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+		9924720F116003EA67C09575 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		BF06F1181B9DC13A0077A0C7 /* KBSettingController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBSettingController.h; path = Views/Settings/KBSettingController.h; sourceTree = "<group>"; };
+		BF06F1191B9DC13A0077A0C7 /* KBSettingController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBSettingController.m; path = Views/Settings/KBSettingController.m; sourceTree = "<group>"; };
+		BF06F11B1B9DC1640077A0C7 /* KBSettingEmoticonCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBSettingEmoticonCell.h; path = Views/Settings/KBSettingEmoticonCell.h; sourceTree = "<group>"; };
+		BF06F11C1B9DC1640077A0C7 /* KBSettingEmoticonCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBSettingEmoticonCell.m; path = Views/Settings/KBSettingEmoticonCell.m; sourceTree = "<group>"; };
+		BF06F11E1B9DC8370077A0C7 /* KBSettingsDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBSettingsDatabase.h; path = Views/Settings/KBSettingsDatabase.h; sourceTree = "<group>"; };
+		BF06F11F1B9DC8370077A0C7 /* KBSettingsDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBSettingsDatabase.m; path = Views/Settings/KBSettingsDatabase.m; sourceTree = "<group>"; };
+		BF3C9FE91B9EB3D4001109D5 /* KBSettingSwithCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBSettingSwithCell.h; path = Views/Settings/KBSettingSwithCell.h; sourceTree = "<group>"; };
+		BF3C9FEA1B9EB3D4001109D5 /* KBSettingSwithCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBSettingSwithCell.m; path = Views/Settings/KBSettingSwithCell.m; sourceTree = "<group>"; };
+		BF3E9BBE1B884C91007C1DD9 /* KBEmoticonDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonDatabase.h; path = Models/KBEmoticonDatabase.h; sourceTree = "<group>"; };
+		BF3E9BBF1B884C91007C1DD9 /* KBEmoticonDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonDatabase.m; path = Models/KBEmoticonDatabase.m; sourceTree = "<group>"; };
+		BF3E9BC51B884E24007C1DD9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF3E9BC71B885054007C1DD9 /* KBEmoticonUpdater.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonUpdater.h; path = Utilities/Networks/KBEmoticonUpdater.h; sourceTree = "<group>"; };
+		BF3E9BC81B885054007C1DD9 /* KBEmoticonUpdater.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonUpdater.m; path = Utilities/Networks/KBEmoticonUpdater.m; sourceTree = "<group>"; };
+		BF3E9BCA1B885091007C1DD9 /* KBUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBUser.h; path = Models/User/KBUser.h; sourceTree = "<group>"; };
+		BF3E9BCB1B885091007C1DD9 /* KBUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBUser.m; path = Models/User/KBUser.m; sourceTree = "<group>"; };
+		BF49C4591B8C116B00B77122 /* KBEmoticonTypesList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonTypesList.h; path = Utilities/Networks/KBEmoticonTypesList.h; sourceTree = "<group>"; };
+		BF49C45A1B8C116B00B77122 /* KBEmoticonTypesList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonTypesList.m; path = Utilities/Networks/KBEmoticonTypesList.m; sourceTree = "<group>"; };
 		BF4B0E3D1B88398200EF737D /* Keyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Keyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4B0E411B88398200EF737D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4B0E421B88398200EF737D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		BF4B0E441B88398200EF737D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BF4B0E451B88398200EF737D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		BF4B0E481B88398200EF737D /* Keyboard.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Keyboard.xcdatamodel; sourceTree = "<group>"; };
-		BF4B0E4A1B88398200EF737D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		BF4B0E4B1B88398200EF737D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		BF4B0E4E1B88398200EF737D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BF4B0E501B88398200EF737D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		BF4B0E531B88398200EF737D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		BF4B0E591B88398200EF737D /* KeyboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KeyboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF4B0E5E1B88398200EF737D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BF4B0E5F1B88398200EF737D /* KeyboardTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KeyboardTests.m; sourceTree = "<group>"; };
+		BF53AA1A1B9997A6004C679E /* pride.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = pride.png; path = Resources/pride.png; sourceTree = "<group>"; };
+		BF6CCCF61B983FD7000086CD /* UIButton+ChainedCircle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIButton+ChainedCircle.h"; path = "Views/Timeline/UIButton+ChainedCircle.h"; sourceTree = "<group>"; };
+		BF6CCCF71B983FD7000086CD /* UIButton+ChainedCircle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIButton+ChainedCircle.m"; path = "Views/Timeline/UIButton+ChainedCircle.m"; sourceTree = "<group>"; };
+		BF7BB6AC1B92E987003F2B61 /* KBButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBButton.h; path = Views/baseViews/KBButton.h; sourceTree = "<group>"; };
+		BF7BB6AD1B92E987003F2B61 /* KBButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBButton.m; path = Views/baseViews/KBButton.m; sourceTree = "<group>"; };
+		BF8B04611B96AB90007FED13 /* KBEmoticonMainCellLayouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonMainCellLayouter.h; path = Views/EmoticonMainPanel/KBEmoticonMainCellLayouter.h; sourceTree = "<group>"; };
+		BF8B04621B96AB90007FED13 /* KBEmoticonMainCellLayouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonMainCellLayouter.m; path = Views/EmoticonMainPanel/KBEmoticonMainCellLayouter.m; sourceTree = "<group>"; };
+		BF8B04681B96C9F5007FED13 /* KBEmoticonDetailView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonDetailView.h; path = Views/EmoticonMainPanel/KBEmoticonDetailView.h; sourceTree = "<group>"; };
+		BF8B04691B96C9F5007FED13 /* KBEmoticonDetailView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonDetailView.m; path = Views/EmoticonMainPanel/KBEmoticonDetailView.m; sourceTree = "<group>"; };
+		BF8B046C1B96DAF1007FED13 /* KBKeyboardController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBKeyboardController.h; path = Controller/KBKeyboardController.h; sourceTree = "<group>"; };
+		BF8B046D1B96DAF1007FED13 /* KBKeyboardController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBKeyboardController.m; path = Controller/KBKeyboardController.m; sourceTree = "<group>"; };
+		BFA2A8D01B89BA3C00B4B81F /* KBURLMaker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBURLMaker.h; path = Utilities/Networks/KBURLMaker.h; sourceTree = "<group>"; };
+		BFA2A8D11B89BA3C00B4B81F /* KBURLMaker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBURLMaker.m; path = Utilities/Networks/KBURLMaker.m; sourceTree = "<group>"; };
+		BFA9DD181B883DF3004E8F3C /* EmoticonType.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EmoticonType.h; path = Models/CoreDataModels/EmoticonType.h; sourceTree = "<group>"; };
+		BFA9DD191B883DF3004E8F3C /* EmoticonType.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EmoticonType.m; path = Models/CoreDataModels/EmoticonType.m; sourceTree = "<group>"; };
+		BFA9DD1E1B883E4A004E8F3C /* Emoticon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Emoticon.h; path = Models/CoreDataModels/Emoticon.h; sourceTree = "<group>"; };
+		BFA9DD1F1B883E4A004E8F3C /* Emoticon.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Emoticon.m; path = Models/CoreDataModels/Emoticon.m; sourceTree = "<group>"; };
+		BFA9DD211B883E77004E8F3C /* KBCoreDataModelTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KBCoreDataModelTest.m; sourceTree = "<group>"; };
+		BFB358C91B92022700D52D40 /* KBEmoticonTypePanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonTypePanelView.h; path = Views/ETypePanel/KBEmoticonTypePanelView.h; sourceTree = "<group>"; };
+		BFB358CA1B92022700D52D40 /* KBEmoticonTypePanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonTypePanelView.m; path = Views/ETypePanel/KBEmoticonTypePanelView.m; sourceTree = "<group>"; };
+		BFB358CD1B9207BB00D52D40 /* KBEmoticonMainPanelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonMainPanelView.h; path = Views/EmoticonMainPanel/KBEmoticonMainPanelView.h; sourceTree = "<group>"; };
+		BFB358CE1B9207BB00D52D40 /* KBEmoticonMainPanelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonMainPanelView.m; path = Views/EmoticonMainPanel/KBEmoticonMainPanelView.m; sourceTree = "<group>"; };
+		BFB358D11B920D7500D52D40 /* KBTouchableChainedCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBTouchableChainedCircleView.h; path = Views/baseViews/KBTouchableChainedCircleView.h; sourceTree = "<group>"; };
+		BFB358D21B920D7500D52D40 /* KBTouchableChainedCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBTouchableChainedCircleView.m; path = Views/baseViews/KBTouchableChainedCircleView.m; sourceTree = "<group>"; };
+		BFB358D41B9221B700D52D40 /* KBEmoticonTypePanelCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonTypePanelCell.h; path = Views/ETypePanel/KBEmoticonTypePanelCell.h; sourceTree = "<group>"; };
+		BFB358D51B9221B700D52D40 /* KBEmoticonTypePanelCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonTypePanelCell.m; path = Views/ETypePanel/KBEmoticonTypePanelCell.m; sourceTree = "<group>"; };
+		BFB358D81B92B17A00D52D40 /* KBSettingBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBSettingBarView.h; path = Views/SettingBar/KBSettingBarView.h; sourceTree = "<group>"; };
+		BFB358D91B92B17A00D52D40 /* KBSettingBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBSettingBarView.m; path = Views/SettingBar/KBSettingBarView.m; sourceTree = "<group>"; };
+		BFB358DB1B92C8AB00D52D40 /* KBQuarterCircleWithMarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBQuarterCircleWithMarkerView.h; path = Views/ETypePanel/KBQuarterCircleWithMarkerView.h; sourceTree = "<group>"; };
+		BFB358DC1B92C8AB00D52D40 /* KBQuarterCircleWithMarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBQuarterCircleWithMarkerView.m; path = Views/ETypePanel/KBQuarterCircleWithMarkerView.m; sourceTree = "<group>"; };
+		BFD370E21B914AA100CD43A2 /* NSTimer+AbsoluteFireDate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSTimer+AbsoluteFireDate.h"; path = "Utilities/Extensions/NSTimer+AbsoluteFireDate.h"; sourceTree = "<group>"; };
+		BFD370E31B914AA100CD43A2 /* NSTimer+AbsoluteFireDate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSTimer+AbsoluteFireDate.m"; path = "Utilities/Extensions/NSTimer+AbsoluteFireDate.m"; sourceTree = "<group>"; };
+		BFD370E51B9177F000CD43A2 /* KBEmoticonUsage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonUsage.h; path = Utilities/Networks/KBEmoticonUsage.h; sourceTree = "<group>"; };
+		BFD370E61B9177F000CD43A2 /* KBEmoticonUsage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonUsage.m; path = Utilities/Networks/KBEmoticonUsage.m; sourceTree = "<group>"; };
+		BFD370EB1B91869D00CD43A2 /* KBTouchableWheelView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBTouchableWheelView.h; path = Views/baseViews/KBTouchableWheelView.h; sourceTree = "<group>"; };
+		BFD370EC1B91869D00CD43A2 /* KBTouchableWheelView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBTouchableWheelView.m; path = Views/baseViews/KBTouchableWheelView.m; sourceTree = "<group>"; };
+		BFD370EF1B918AF800CD43A2 /* KBTimelineView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBTimelineView.h; path = Views/Timeline/KBTimelineView.h; sourceTree = "<group>"; };
+		BFD370F01B918AF800CD43A2 /* KBTimelineView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBTimelineView.m; path = Views/Timeline/KBTimelineView.m; sourceTree = "<group>"; };
+		BFD370F31B918BD100CD43A2 /* KBTimelineMarkerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBTimelineMarkerView.h; path = Views/Timeline/KBTimelineMarkerView.h; sourceTree = "<group>"; };
+		BFD370F41B918BD100CD43A2 /* KBTimelineMarkerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBTimelineMarkerView.m; path = Views/Timeline/KBTimelineMarkerView.m; sourceTree = "<group>"; };
+		BFD370F71B91A00D00CD43A2 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		BFD370FA1B91A16500CD43A2 /* KBTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBTestViewController.h; path = Test/KBTestViewController.h; sourceTree = "<group>"; };
+		BFD370FB1B91A16500CD43A2 /* KBTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBTestViewController.m; path = Test/KBTestViewController.m; sourceTree = "<group>"; };
+		BFD370FD1B91D6D000CD43A2 /* KBQuarterCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBQuarterCircleView.h; path = Views/baseViews/KBQuarterCircleView.h; sourceTree = "<group>"; };
+		BFD370FE1B91D6D000CD43A2 /* KBQuarterCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBQuarterCircleView.m; path = Views/baseViews/KBQuarterCircleView.m; sourceTree = "<group>"; };
+		BFEF31811B885CEC000F55EC /* KBEmoticonUsageReporter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonUsageReporter.h; path = Utilities/Networks/KBEmoticonUsageReporter.h; sourceTree = "<group>"; };
+		BFEF31821B885CEC000F55EC /* KBEmoticonUsageReporter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonUsageReporter.m; path = Utilities/Networks/KBEmoticonUsageReporter.m; sourceTree = "<group>"; };
+		BFEF31881B886418000F55EC /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		BFEF31891B886418000F55EC /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		BFEF318C1B8864D0000F55EC /* KBGlobalSetup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBGlobalSetup.h; path = GlobalSetup/KBGlobalSetup.h; sourceTree = "<group>"; };
+		BFF11ED01B9588A900472A6C /* KBEmoticnMainCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticnMainCell.h; path = Views/EmoticonMainPanel/KBEmoticnMainCell.h; sourceTree = "<group>"; };
+		BFF11ED11B9588A900472A6C /* KBEmoticnMainCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticnMainCell.m; path = Views/EmoticonMainPanel/KBEmoticnMainCell.m; sourceTree = "<group>"; };
+		BFF11ED31B95D45000472A6C /* KBEmoticonMainContainerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = KBEmoticonMainContainerView.h; path = Views/EmoticonMainPanel/KBEmoticonMainContainerView.h; sourceTree = "<group>"; };
+		BFF11ED41B95D45000472A6C /* KBEmoticonMainContainerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = KBEmoticonMainContainerView.m; path = Views/EmoticonMainPanel/KBEmoticonMainContainerView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +154,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E5A631C5F8481632727ED7B0 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +168,104 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E1A137A0D4D31B0687BE1D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				292F5C50430724E648CDCA02 /* Pods.debug.xcconfig */,
+				9924720F116003EA67C09575 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BF06F1171B9DC09E0077A0C7 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				BF3C9FEC1B9ECAA9001109D5 /* Detail */,
+				BF06F11E1B9DC8370077A0C7 /* KBSettingsDatabase.h */,
+				BF06F11F1B9DC8370077A0C7 /* KBSettingsDatabase.m */,
+				BF3C9FE91B9EB3D4001109D5 /* KBSettingSwithCell.h */,
+				BF3C9FEA1B9EB3D4001109D5 /* KBSettingSwithCell.m */,
+				BF06F11B1B9DC1640077A0C7 /* KBSettingEmoticonCell.h */,
+				BF06F11C1B9DC1640077A0C7 /* KBSettingEmoticonCell.m */,
+				BF06F1181B9DC13A0077A0C7 /* KBSettingController.h */,
+				BF06F1191B9DC13A0077A0C7 /* KBSettingController.m */,
+			);
+			name = Settings;
+			sourceTree = "<group>";
+		};
+		BF3C9FEC1B9ECAA9001109D5 /* Detail */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Detail;
+			sourceTree = "<group>";
+		};
+		BF3E9BC11B884D67007C1DD9 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BFD370DE1B914A5C00CD43A2 /* NSTimer-Extension */,
+				BFEF318D1B886AE7000F55EC /* BaseDataStructure */,
+				BFEF31841B8862F4000F55EC /* Networks+3rd */,
+				BF3E9BC41B884D7D007C1DD9 /* Networks */,
+				BF3E9BC31B884D74007C1DD9 /* Images */,
+				BF3E9BC21B884D6E007C1DD9 /* Caches */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		BF3E9BC21B884D6E007C1DD9 /* Caches */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Caches;
+			sourceTree = "<group>";
+		};
+		BF3E9BC31B884D74007C1DD9 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		BF3E9BC41B884D7D007C1DD9 /* Networks */ = {
+			isa = PBXGroup;
+			children = (
+				BF49C45C1B8C117400B77122 /* TypeList */,
+				BFA2A8CF1B89BA1900B4B81F /* URLMaker */,
+				BFA2A8CD1B89B4CC00B4B81F /* Reporter */,
+				BFA2A8CE1B89B4D300B4B81F /* Updater */,
+			);
+			name = Networks;
+			sourceTree = "<group>";
+		};
+		BF3E9BCD1B885097007C1DD9 /* User */ = {
+			isa = PBXGroup;
+			children = (
+				BF3E9BCA1B885091007C1DD9 /* KBUser.h */,
+				BF3E9BCB1B885091007C1DD9 /* KBUser.m */,
+			);
+			name = User;
+			sourceTree = "<group>";
+		};
+		BF49C45C1B8C117400B77122 /* TypeList */ = {
+			isa = PBXGroup;
+			children = (
+				BF49C4591B8C116B00B77122 /* KBEmoticonTypesList.h */,
+				BF49C45A1B8C116B00B77122 /* KBEmoticonTypesList.m */,
+			);
+			name = TypeList;
+			sourceTree = "<group>";
+		};
 		BF4B0E341B88398200EF737D = {
 			isa = PBXGroup;
 			children = (
+				BFD370F71B91A00D00CD43A2 /* Default-568h@2x.png */,
+				BF3E9BC51B884E24007C1DD9 /* Podfile */,
 				BF4B0E3F1B88398200EF737D /* Keyboard */,
 				BF4B0E5C1B88398200EF737D /* KeyboardTests */,
 				BF4B0E3E1B88398200EF737D /* Products */,
+				6E1A137A0D4D31B0687BE1D1 /* Pods */,
+				D3CD46FF007222ED5CFB7BFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,13 +281,17 @@
 		BF4B0E3F1B88398200EF737D /* Keyboard */ = {
 			isa = PBXGroup;
 			children = (
+				BF53AA191B99979A004C679E /* test */,
+				BF8B046B1B96DAD4007FED13 /* Controller */,
+				BFD370F91B91A14100CD43A2 /* TemporaryTest */,
+				BFD370EA1B91814C00CD43A2 /* Layout */,
+				BFD370E81B91812D00CD43A2 /* Views */,
+				BFEF318B1B886494000F55EC /* GlobalSetup */,
+				BF3E9BC11B884D67007C1DD9 /* Utilities */,
+				BFA9DD161B883DB8004E8F3C /* Models */,
 				BF4B0E441B88398200EF737D /* AppDelegate.h */,
 				BF4B0E451B88398200EF737D /* AppDelegate.m */,
-				BF4B0E4A1B88398200EF737D /* ViewController.h */,
-				BF4B0E4B1B88398200EF737D /* ViewController.m */,
-				BF4B0E4D1B88398200EF737D /* Main.storyboard */,
 				BF4B0E501B88398200EF737D /* Images.xcassets */,
-				BF4B0E521B88398200EF737D /* LaunchScreen.xib */,
 				BF4B0E471B88398200EF737D /* Keyboard.xcdatamodeld */,
 				BF4B0E401B88398200EF737D /* Supporting Files */,
 			);
@@ -108,6 +310,7 @@
 		BF4B0E5C1B88398200EF737D /* KeyboardTests */ = {
 			isa = PBXGroup;
 			children = (
+				BFA9DD211B883E77004E8F3C /* KBCoreDataModelTest.m */,
 				BF4B0E5F1B88398200EF737D /* KeyboardTests.m */,
 				BF4B0E5D1B88398200EF737D /* Supporting Files */,
 			);
@@ -122,6 +325,227 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		BF53AA191B99979A004C679E /* test */ = {
+			isa = PBXGroup;
+			children = (
+				BF53AA1A1B9997A6004C679E /* pride.png */,
+			);
+			name = test;
+			sourceTree = "<group>";
+		};
+		BF6CCCF51B983FB1000086CD /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				BF6CCCF61B983FD7000086CD /* UIButton+ChainedCircle.h */,
+				BF6CCCF71B983FD7000086CD /* UIButton+ChainedCircle.m */,
+			);
+			name = Utility;
+			sourceTree = "<group>";
+		};
+		BF8B046B1B96DAD4007FED13 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BF8B046C1B96DAF1007FED13 /* KBKeyboardController.h */,
+				BF8B046D1B96DAF1007FED13 /* KBKeyboardController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		BFA2A8CD1B89B4CC00B4B81F /* Reporter */ = {
+			isa = PBXGroup;
+			children = (
+				BFD370E51B9177F000CD43A2 /* KBEmoticonUsage.h */,
+				BFD370E61B9177F000CD43A2 /* KBEmoticonUsage.m */,
+				BFEF31811B885CEC000F55EC /* KBEmoticonUsageReporter.h */,
+				BFEF31821B885CEC000F55EC /* KBEmoticonUsageReporter.m */,
+			);
+			name = Reporter;
+			sourceTree = "<group>";
+		};
+		BFA2A8CE1B89B4D300B4B81F /* Updater */ = {
+			isa = PBXGroup;
+			children = (
+				BF3E9BC71B885054007C1DD9 /* KBEmoticonUpdater.h */,
+				BF3E9BC81B885054007C1DD9 /* KBEmoticonUpdater.m */,
+			);
+			name = Updater;
+			sourceTree = "<group>";
+		};
+		BFA2A8CF1B89BA1900B4B81F /* URLMaker */ = {
+			isa = PBXGroup;
+			children = (
+				BFA2A8D01B89BA3C00B4B81F /* KBURLMaker.h */,
+				BFA2A8D11B89BA3C00B4B81F /* KBURLMaker.m */,
+			);
+			name = URLMaker;
+			sourceTree = "<group>";
+		};
+		BFA9DD161B883DB8004E8F3C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				BF3E9BCD1B885097007C1DD9 /* User */,
+				BF3E9BBE1B884C91007C1DD9 /* KBEmoticonDatabase.h */,
+				BF3E9BBF1B884C91007C1DD9 /* KBEmoticonDatabase.m */,
+				BFA9DD171B883DBF004E8F3C /* CoreDataModels */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		BFA9DD171B883DBF004E8F3C /* CoreDataModels */ = {
+			isa = PBXGroup;
+			children = (
+				BFA9DD181B883DF3004E8F3C /* EmoticonType.h */,
+				BFA9DD191B883DF3004E8F3C /* EmoticonType.m */,
+				BFA9DD1E1B883E4A004E8F3C /* Emoticon.h */,
+				BFA9DD1F1B883E4A004E8F3C /* Emoticon.m */,
+			);
+			name = CoreDataModels;
+			sourceTree = "<group>";
+		};
+		BFB358C81B92020300D52D40 /* ETypePanel */ = {
+			isa = PBXGroup;
+			children = (
+				BFB358DB1B92C8AB00D52D40 /* KBQuarterCircleWithMarkerView.h */,
+				BFB358DC1B92C8AB00D52D40 /* KBQuarterCircleWithMarkerView.m */,
+				BFB358D41B9221B700D52D40 /* KBEmoticonTypePanelCell.h */,
+				BFB358D51B9221B700D52D40 /* KBEmoticonTypePanelCell.m */,
+				BFB358C91B92022700D52D40 /* KBEmoticonTypePanelView.h */,
+				BFB358CA1B92022700D52D40 /* KBEmoticonTypePanelView.m */,
+			);
+			name = ETypePanel;
+			sourceTree = "<group>";
+		};
+		BFB358CC1B92078600D52D40 /* EmoticonMainPanel */ = {
+			isa = PBXGroup;
+			children = (
+				BF8B04681B96C9F5007FED13 /* KBEmoticonDetailView.h */,
+				BF8B04691B96C9F5007FED13 /* KBEmoticonDetailView.m */,
+				BF8B04611B96AB90007FED13 /* KBEmoticonMainCellLayouter.h */,
+				BF8B04621B96AB90007FED13 /* KBEmoticonMainCellLayouter.m */,
+				BFF11ED31B95D45000472A6C /* KBEmoticonMainContainerView.h */,
+				BFF11ED41B95D45000472A6C /* KBEmoticonMainContainerView.m */,
+				BFF11ED01B9588A900472A6C /* KBEmoticnMainCell.h */,
+				BFF11ED11B9588A900472A6C /* KBEmoticnMainCell.m */,
+				BFB358CD1B9207BB00D52D40 /* KBEmoticonMainPanelView.h */,
+				BFB358CE1B9207BB00D52D40 /* KBEmoticonMainPanelView.m */,
+			);
+			name = EmoticonMainPanel;
+			sourceTree = "<group>";
+		};
+		BFB358D71B92B11400D52D40 /* SettingBar */ = {
+			isa = PBXGroup;
+			children = (
+				BFB358D81B92B17A00D52D40 /* KBSettingBarView.h */,
+				BFB358D91B92B17A00D52D40 /* KBSettingBarView.m */,
+			);
+			name = SettingBar;
+			sourceTree = "<group>";
+		};
+		BFD370DE1B914A5C00CD43A2 /* NSTimer-Extension */ = {
+			isa = PBXGroup;
+			children = (
+				BFD370E21B914AA100CD43A2 /* NSTimer+AbsoluteFireDate.h */,
+				BFD370E31B914AA100CD43A2 /* NSTimer+AbsoluteFireDate.m */,
+			);
+			name = "NSTimer-Extension";
+			sourceTree = "<group>";
+		};
+		BFD370E81B91812D00CD43A2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BF06F1171B9DC09E0077A0C7 /* Settings */,
+				BFB358D71B92B11400D52D40 /* SettingBar */,
+				BFB358CC1B92078600D52D40 /* EmoticonMainPanel */,
+				BFB358C81B92020300D52D40 /* ETypePanel */,
+				BFD370EE1B918ADA00CD43A2 /* Timeline */,
+				BFD370E91B91813400CD43A2 /* BaseViewTemplates */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		BFD370E91B91813400CD43A2 /* BaseViewTemplates */ = {
+			isa = PBXGroup;
+			children = (
+				BF7BB6AC1B92E987003F2B61 /* KBButton.h */,
+				BF7BB6AD1B92E987003F2B61 /* KBButton.m */,
+				BFB358D11B920D7500D52D40 /* KBTouchableChainedCircleView.h */,
+				BFB358D21B920D7500D52D40 /* KBTouchableChainedCircleView.m */,
+				BFD370FD1B91D6D000CD43A2 /* KBQuarterCircleView.h */,
+				BFD370FE1B91D6D000CD43A2 /* KBQuarterCircleView.m */,
+				BFD370EB1B91869D00CD43A2 /* KBTouchableWheelView.h */,
+				BFD370EC1B91869D00CD43A2 /* KBTouchableWheelView.m */,
+			);
+			name = BaseViewTemplates;
+			sourceTree = "<group>";
+		};
+		BFD370EA1B91814C00CD43A2 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Layout;
+			sourceTree = "<group>";
+		};
+		BFD370EE1B918ADA00CD43A2 /* Timeline */ = {
+			isa = PBXGroup;
+			children = (
+				BF6CCCF51B983FB1000086CD /* Utility */,
+				BFD370F21B918BB100CD43A2 /* Marker */,
+				BFD370EF1B918AF800CD43A2 /* KBTimelineView.h */,
+				BFD370F01B918AF800CD43A2 /* KBTimelineView.m */,
+			);
+			name = Timeline;
+			sourceTree = "<group>";
+		};
+		BFD370F21B918BB100CD43A2 /* Marker */ = {
+			isa = PBXGroup;
+			children = (
+				BFD370F31B918BD100CD43A2 /* KBTimelineMarkerView.h */,
+				BFD370F41B918BD100CD43A2 /* KBTimelineMarkerView.m */,
+			);
+			name = Marker;
+			sourceTree = "<group>";
+		};
+		BFD370F91B91A14100CD43A2 /* TemporaryTest */ = {
+			isa = PBXGroup;
+			children = (
+				BFD370FA1B91A16500CD43A2 /* KBTestViewController.h */,
+				BFD370FB1B91A16500CD43A2 /* KBTestViewController.m */,
+			);
+			name = TemporaryTest;
+			sourceTree = "<group>";
+		};
+		BFEF31841B8862F4000F55EC /* Networks+3rd */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF31881B886418000F55EC /* Reachability.h */,
+				BFEF31891B886418000F55EC /* Reachability.m */,
+			);
+			name = "Networks+3rd";
+			sourceTree = "<group>";
+		};
+		BFEF318B1B886494000F55EC /* GlobalSetup */ = {
+			isa = PBXGroup;
+			children = (
+				BFEF318C1B8864D0000F55EC /* KBGlobalSetup.h */,
+			);
+			name = GlobalSetup;
+			sourceTree = "<group>";
+		};
+		BFEF318D1B886AE7000F55EC /* BaseDataStructure */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = BaseDataStructure;
+			sourceTree = "<group>";
+		};
+		D3CD46FF007222ED5CFB7BFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				060C0270EEFF9C57FF68DD2D /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +553,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BF4B0E631B88398200EF737D /* Build configuration list for PBXNativeTarget "Keyboard" */;
 			buildPhases = (
+				B38731C084A94E9CA19CD29B /* Check Pods Manifest.lock */,
 				BF4B0E391B88398200EF737D /* Sources */,
 				BF4B0E3A1B88398200EF737D /* Frameworks */,
 				BF4B0E3B1B88398200EF737D /* Resources */,
+				C545E0398B402565C64F6565 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,11 +592,12 @@
 		BF4B0E351B88398200EF737D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0640;
+				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = "黄延";
 				TargetAttributes = {
 					BF4B0E3C1B88398200EF737D = {
 						CreatedOnToolsVersion = 6.4;
+						DevelopmentTeam = F6Q2CCPKZ9;
 					};
 					BF4B0E581B88398200EF737D = {
 						CreatedOnToolsVersion = 6.4;
@@ -202,9 +629,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF4B0E4F1B88398200EF737D /* Main.storyboard in Resources */,
-				BF4B0E541B88398200EF737D /* LaunchScreen.xib in Resources */,
+				BF53AA1B1B9997A6004C679E /* pride.png in Resources */,
+				BF3E9BC61B884E24007C1DD9 /* Podfile in Resources */,
 				BF4B0E511B88398200EF737D /* Images.xcassets in Resources */,
+				BFD370F81B91A00D00CD43A2 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -217,15 +645,80 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		B38731C084A94E9CA19CD29B /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		C545E0398B402565C64F6565 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BF4B0E391B88398200EF737D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BF06F1201B9DC8370077A0C7 /* KBSettingsDatabase.m in Sources */,
 				BF4B0E491B88398200EF737D /* Keyboard.xcdatamodeld in Sources */,
+				BF3E9BC91B885054007C1DD9 /* KBEmoticonUpdater.m in Sources */,
+				BF3E9BC01B884C91007C1DD9 /* KBEmoticonDatabase.m in Sources */,
+				BFA9DD1A1B883DF3004E8F3C /* EmoticonType.m in Sources */,
+				BFD370E71B9177F000CD43A2 /* KBEmoticonUsage.m in Sources */,
+				BF6CCCF81B983FD7000086CD /* UIButton+ChainedCircle.m in Sources */,
+				BF49C45B1B8C116B00B77122 /* KBEmoticonTypesList.m in Sources */,
+				BF8B046E1B96DAF1007FED13 /* KBKeyboardController.m in Sources */,
+				BFB358CF1B9207BB00D52D40 /* KBEmoticonMainPanelView.m in Sources */,
+				BFEF318A1B886418000F55EC /* Reachability.m in Sources */,
+				BFF11ED21B9588A900472A6C /* KBEmoticnMainCell.m in Sources */,
+				BFB358D31B920D7500D52D40 /* KBTouchableChainedCircleView.m in Sources */,
+				BF06F11A1B9DC13A0077A0C7 /* KBSettingController.m in Sources */,
 				BF4B0E461B88398200EF737D /* AppDelegate.m in Sources */,
-				BF4B0E4C1B88398200EF737D /* ViewController.m in Sources */,
+				BFB358CB1B92022700D52D40 /* KBEmoticonTypePanelView.m in Sources */,
+				BFEF31831B885CEC000F55EC /* KBEmoticonUsageReporter.m in Sources */,
+				BFD370F51B918BD100CD43A2 /* KBTimelineMarkerView.m in Sources */,
 				BF4B0E431B88398200EF737D /* main.m in Sources */,
+				BFD370F11B918AF800CD43A2 /* KBTimelineView.m in Sources */,
+				BF06F11D1B9DC1640077A0C7 /* KBSettingEmoticonCell.m in Sources */,
+				BFB358D61B9221B700D52D40 /* KBEmoticonTypePanelCell.m in Sources */,
+				BF7BB6AE1B92E987003F2B61 /* KBButton.m in Sources */,
+				BFF11ED51B95D45000472A6C /* KBEmoticonMainContainerView.m in Sources */,
+				BFB358DD1B92C8AB00D52D40 /* KBQuarterCircleWithMarkerView.m in Sources */,
+				BF3C9FEB1B9EB3D4001109D5 /* KBSettingSwithCell.m in Sources */,
+				BFB358DA1B92B17A00D52D40 /* KBSettingBarView.m in Sources */,
+				BFD370E41B914AA100CD43A2 /* NSTimer+AbsoluteFireDate.m in Sources */,
+				BFD370FC1B91A16500CD43A2 /* KBTestViewController.m in Sources */,
+				BFD370ED1B91869D00CD43A2 /* KBTouchableWheelView.m in Sources */,
+				BFA9DD201B883E4A004E8F3C /* Emoticon.m in Sources */,
+				BFA2A8D21B89BA3C00B4B81F /* KBURLMaker.m in Sources */,
+				BF8B046A1B96C9F5007FED13 /* KBEmoticonDetailView.m in Sources */,
+				BFD370FF1B91D6D000CD43A2 /* KBQuarterCircleView.m in Sources */,
+				BF8B04631B96AB90007FED13 /* KBEmoticonMainCellLayouter.m in Sources */,
+				BF3E9BCC1B885091007C1DD9 /* KBUser.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -234,6 +727,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BF4B0E601B88398200EF737D /* KeyboardTests.m in Sources */,
+				BFA9DD221B883E77004E8F3C /* KBCoreDataModelTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,25 +740,6 @@
 			targetProxy = BF4B0E5A1B88398200EF737D /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		BF4B0E4D1B88398200EF737D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF4B0E4E1B88398200EF737D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		BF4B0E521B88398200EF737D /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BF4B0E531B88398200EF737D /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BF4B0E611B88398200EF737D /* Debug */ = {
@@ -288,6 +763,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -349,20 +825,28 @@
 		};
 		BF4B0E641B88398200EF737D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 292F5C50430724E648CDCA02 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodyHuang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
 		BF4B0E651B88398200EF737D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9924720F116003EA67C09575 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = Keyboard/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodyHuang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -381,6 +865,7 @@
 				);
 				INFOPLIST_FILE = KeyboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodyHuang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard.app/Keyboard";
 			};
@@ -396,6 +881,7 @@
 				);
 				INFOPLIST_FILE = KeyboardTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.woodyHuang.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Keyboard.app/Keyboard";
 			};
@@ -420,6 +906,7 @@
 				BF4B0E651B88398200EF737D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BF4B0E661B88398200EF737D /* Build configuration list for PBXNativeTarget "KeyboardTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +915,7 @@
 				BF4B0E681B88398200EF737D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

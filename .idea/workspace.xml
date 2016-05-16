@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="30cea14e-95c0-428d-bc55-fbe2e66f14c5" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Default-568h@2x.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Resources/pride.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Images.xcassets/quit_button.imageset/quit_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Images.xcassets/setting_button.imageset/setting_button.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Images.xcassets/quit_button.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Images.xcassets/setting_button.imageset/Contents.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/CoreDataModels/Emoticon.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/CoreDataModels/Emoticon.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/CoreDataModels/EmoticonType.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/CoreDataModels/EmoticonType.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBButton.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBButton.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/KeyboardTests/KBCoreDataModelTest.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticnMainCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticnMainCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/KBEmoticonDatabase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/KBEmoticonDatabase.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonDetailView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonDetailView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonMainCellLayouter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonMainCellLayouter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonMainContainerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonMainContainerView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonMainPanelView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/EmoticonMainPanel/KBEmoticonMainPanelView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBEmoticonTypePanelCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBEmoticonTypePanelCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBEmoticonTypePanelView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBEmoticonTypePanelView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonTypesList.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonTypesList.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonUpdater.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonUpdater.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonUsage.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonUsage.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonUsageReporter.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBEmoticonUsageReporter.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Controller/KBKeyboardController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Controller/KBKeyboardController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBQuarterCircleView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBQuarterCircleView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBQuarterCircleWithMarkerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBQuarterCircleWithMarkerView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/SettingBar/KBSettingBarView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/SettingBar/KBSettingBarView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingEmoticonCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingEmoticonCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingSwithCell.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingSwithCell.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingsDatabase.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Settings/KBSettingsDatabase.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Test/KBTestViewController.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Test/KBTestViewController.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Timeline/KBTimelineMarkerView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Timeline/KBTimelineMarkerView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Timeline/KBTimelineView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Timeline/KBTimelineView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBTouchableChainedCircleView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBTouchableChainedCircleView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBTouchableWheelView.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/baseViews/KBTouchableWheelView.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBURLMaker.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Networks/KBURLMaker.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/User/KBUser.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Models/User/KBUser.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Extensions/NSTimer+AbsoluteFireDate.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Utilities/Extensions/NSTimer+AbsoluteFireDate.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Podfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Reachability.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Reachability.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Timeline/UIButton+ChainedCircle.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Keyboard/Views/Timeline/UIButton+ChainedCircle.m" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Keyboard/Base.lproj/LaunchScreen.xib" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Keyboard/Base.lproj/Main.storyboard" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Keyboard/ViewController.m" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/Keyboard/ViewController.h" afterPath="$PROJECT_DIR$/Keyboard/GlobalSetup/KBGlobalSetup.h" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keyboard/AppDelegate.m" afterPath="$PROJECT_DIR$/Keyboard/AppDelegate.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keyboard/Info.plist" afterPath="$PROJECT_DIR$/Keyboard/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KeyboardTests/Info.plist" afterPath="$PROJECT_DIR$/KeyboardTests/Info.plist" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/KeyboardTests/KeyboardTests.m" afterPath="$PROJECT_DIR$/KeyboardTests/KeyboardTests.m" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keyboard/Keyboard.xcdatamodeld/Keyboard.xcdatamodel/contents" afterPath="$PROJECT_DIR$/Keyboard/Keyboard.xcdatamodeld/Keyboard.xcdatamodel/contents" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Keyboard.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Keyboard.xcodeproj/project.pbxproj" />
+    </list>
+    <ignored path="Keyboard.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="FavoritesManager">
+    <favorites_list name="Keyboard" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="AppDelegate.m" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Keyboard/AppDelegate.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="KBEmoticonTypePanelView.m" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBEmoticonTypePanelView.m">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.028777">
+              <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBEmoticonTypePanelView.m" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="NamedScopeManager">
+    <order />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="20" />
+    <option name="y" value="43" />
+    <option name="width" value="1400" />
+    <option name="height" value="792" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Keyboard" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Views" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ETypePanel" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="recentsLimit" value="5" />
+    <property name="FullScreen" value="false" />
+    <property name="settings.editor.splitter.proportion" value="0.2" />
+  </component>
+  <component name="RunManager" selected="Application.Keyboard">
+    <configuration default="true" type="AppleRunConfiguration" factoryName="Application" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Keyboard" TARGET_NAME="Keyboard" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Keyboard" RUN_TARGET_NAME="Keyboard" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Keyboard" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Keyboard" TARGET_NAME="Keyboard" CONFIG_NAME="Debug" SCHEME_NAME="Keyboard" RUN_TARGET_PROJECT_NAME="Keyboard" RUN_TARGET_NAME="Keyboard" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs>
+        <env name="NSZombieEnabled" value="True" />
+      </envs>
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="AFNetworking" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="AFNetworking" CONFIG_NAME="Debug" SCHEME_NAME="AFNetworking" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="BlocksKit" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="BlocksKit" CONFIG_NAME="Debug" SCHEME_NAME="BlocksKit" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Masonry" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Masonry" CONFIG_NAME="Debug" SCHEME_NAME="Masonry" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="PINCache" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="PINCache" CONFIG_NAME="Debug" SCHEME_NAME="PINCache" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="Pods" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="Pods" CONFIG_NAME="Debug" SCHEME_NAME="Pods" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="pop" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="pop" CONFIG_NAME="Debug" SCHEME_NAME="pop" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <configuration default="false" name="SDWebImage" type="AppleRunConfiguration" factoryName="Application" WORKING_DIR="" PASS_PARENT_ENVS="FALSE" PROJECT_NAME="Pods" TARGET_NAME="SDWebImage" CONFIG_NAME="Debug" SCHEME_NAME="SDWebImage" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+      <envs />
+      <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
+        <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
+      </EXTENSION>
+      <method />
+    </configuration>
+    <list size="8">
+      <item index="0" class="java.lang.String" itemvalue="Application.Keyboard" />
+      <item index="1" class="java.lang.String" itemvalue="Application.AFNetworking" />
+      <item index="2" class="java.lang.String" itemvalue="Application.BlocksKit" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Masonry" />
+      <item index="4" class="java.lang.String" itemvalue="Application.PINCache" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Pods" />
+      <item index="6" class="java.lang.String" itemvalue="Application.pop" />
+      <item index="7" class="java.lang.String" itemvalue="Application.SDWebImage" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="30cea14e-95c0-428d-bc55-fbe2e66f14c5" name="Default" comment="" />
+      <created>1444226312019</created>
+      <option name="number" value="Default" />
+      <updated>1444226312019</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="20" y="43" width="1400" height="792" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Keyboard/AppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="50" column="36" selection-start-line="50" selection-start-column="36" selection-end-line="50" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Keyboard/Views/ETypePanel/KBEmoticonTypePanelView.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.028777">
+          <caret line="61" column="24" selection-start-line="61" selection-start-column="24" selection-end-line="61" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
